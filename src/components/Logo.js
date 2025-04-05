@@ -20,10 +20,9 @@ export default function Logo() {
   useEffect(() => {
     let position = 0;
 
-    // Clone the images to create a seamless loop
     const totalImages = logoImages.length;
     const totalClones = totalImages * 2;
-    const slideWidth = 120; // Adjust this for better spacing
+    const slideWidth = 120;
 
     slideInterval.current = setInterval(() => {
       position -= slideWidth;
