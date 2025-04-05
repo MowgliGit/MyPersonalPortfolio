@@ -64,7 +64,7 @@ export default function Logo() {
         />
         <ButtonPrimary
           text="My Interactive Resume"
-          link="https://digitalresumecv.netlify.app/"
+          link="https://mowgligit.github.io/website-portfolio-grid-about-my-work-and-me/"
         />
       </div>
     </>
