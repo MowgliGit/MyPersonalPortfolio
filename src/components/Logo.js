@@ -27,7 +27,6 @@ export default function Logo() {
     slideInterval.current = setInterval(() => {
       position -= slideWidth;
 
-      // Reset to the beginning when the end is reached
       if (Math.abs(position) >= slideWidth * totalImages) {
         position = 0;
         sliderRef.current.style.transition = "none"; // Disable animation for seamless loop
