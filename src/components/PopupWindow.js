@@ -19,7 +19,7 @@ const PopupWindow = () => {
       {/* Button to open popup */}
       <div>
         <ButtonSection
-          text="Package Deal"
+          text="Need More Support"
           link="#popupOverlay"
           onClick={() => setIsOpen(true)} // Ensure onClick is correctly passed
         />

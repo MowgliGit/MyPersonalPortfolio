@@ -23,6 +23,8 @@ export default function Footer() {
               <a
                 href="mailto:themowglicoder@gmail.com"
                 className={styles.footerLink}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 themowglicoder@gmail.com
               </a>
@@ -30,13 +32,15 @@ export default function Footer() {
 
             <div className={styles.contactBtns}>
               <button className={styles.btnFooterLink}>
-                <i
-                  className={`fa-brands fa-square-upwork ${styles.navIcon}`}
-                ></i>
                 <a
                   href="https://www.upwork.com/freelancers/~01741f500be36f1cbe"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={styles.footerLink}
                 >
+                  <i
+                    className={`fa-brands fa-square-upwork ${styles.navIcon}`}
+                  ></i>
                   Upwork
                 </a>
               </button>

@@ -6,13 +6,13 @@ const skills = [
   { name: "HTML", progress: "100%" },
   { name: "CSS", progress: "95%" },
   { name: "Bootstrap", progress: "95%" },
-  { name: "JavaScript", progress: "75%" },
+  { name: "JavaScript", progress: "65%" },
   { name: "React", progress: "60%" },
   { name: "Sass", progress: "75%" },
-  { name: "Tailwind", progress: "50%" },
   { name: "GitHub", progress: "75%" },
   { name: "Web Design", progress: "85%" },
   { name: "English", progress: "80%" },
+  { name: "PSDtoHTML", progress: "100%" },
 ];
 
 const Skill = ({ name, progress }) => {

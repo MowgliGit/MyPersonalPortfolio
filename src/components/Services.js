@@ -8,7 +8,7 @@ const servicesItems = [
   {
     icon: "icons8-google-code-50.png",
     title: "Front-end Development",
-    text: "I use HTML, CSS, JavaScript, and React to build interactive and dynamic websites.",
+    text: "I build interactive websites using HTML, CSS, JS, and React, with API integration for dynamic functionality.",
   },
   {
     icon: "icons8-update-done-50.png",

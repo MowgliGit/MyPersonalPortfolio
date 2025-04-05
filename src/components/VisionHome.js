@@ -11,7 +11,7 @@ export default function VisionHome() {
             Have a Vision? Let’s Make It a Reality.
           </h1>
           <div className={styles.buttonWrapper}>
-            <ButtonSecondary text="Pricing & Offers" link="/Prices" />
+            <ButtonSecondary text="Pricing & Offers" link="/Pricing" />
           </div>
         </div>
       </section>

@@ -5,19 +5,19 @@ import "../App.css";
 const testimonials = [
   {
     id: 1,
-    text: "Marina built an amazing website for my business! It looks great, runs smoothly, and works perfectly on any device. I don’t have to worry about a thing—she keeps everything updated and secure so I can focus on growing my business.",
+    text: "Marina made everything so easy! She handles all future updates, so I never have to deal with code. The site is smooth, interactive, and exactly what I envisioned. — John Doe, Business Owner",
   },
   {
     id: 2,
-    text: "I love my website! It’s modern, fast, and super easy to use. Marina really thought about how people will interact with it, and it shows. Everything just works perfectly!",
+    text: "She was always quick to respond and made sure everything worked seamlessly. I’m really impressed with her commitment to quality. — Emily Clark, Marketing Specialist",
   },
   {
     id: 3,
-    text: "I had no idea what I needed, but Marina guided me through everything. The result? A website that looks stunning and works flawlessly. I don’t have to stress about updates—she handles everything for me!",
+    text: "The functionality is top-notch! The website runs perfectly, loads fast, and looks great on every device. Exactly what I needed. — Michael Jones, Entrepreneur",
   },
   {
     id: 4,
-    text: "Working with Marina was a awesome! My site is smooth, interactive, and totally hassle-free. She’s always there to fix issues and keep things running, which saves me so much time!",
+    text: "Working with Marina was awesome! She developed a smooth, interactive site with seamless API integration, making everything run effortlessly. Marina is always there to resolve issues and keep things functioning perfectly, which saves me so much time. Thomas Gomez, Product Manager!",
   },
 ];
 

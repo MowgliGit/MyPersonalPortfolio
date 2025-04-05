@@ -62,7 +62,7 @@
   }
 }
 .aboutImgBox {
-  align-self: flex-end !important;
+  align-self: center !important;
   justify-self: center;
   position: relative;
   transition: all 0.3s;

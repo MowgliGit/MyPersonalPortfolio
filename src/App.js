@@ -9,7 +9,7 @@ import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 function App() {
   return (
-    <Router basename="/myPersonalPortfolio-Upwork">
+    <Router basename="/PersonalPortfolio">
       <div className="mainPage">
         <Routes>
           <Route path="/" element={<Home />} />

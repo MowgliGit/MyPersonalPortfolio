@@ -85,6 +85,7 @@
 .contactBtns {
   display: flex;
   gap: 1.2rem;
+  cursor: pointer;
 }
 .btnFooterLink {
   display: inline-block;
@@ -112,6 +113,7 @@
   background-color: #042546;
   transform: translateY(-2px) scale(1.05); /* Add scale for hover effect */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .footerLink {
   font-size: 1.6rem;

@@ -2,7 +2,6 @@ import Navigation from "./Navigation";
 import styles from "../styles/Prices.module.css";
 import PopupWindow from "./PopupWindow";
 import Footer from "./Footer";
-import { Link } from "react-router-dom";
 import "../App.css";
 import ButtonSection from "./ButtonSection";
 
@@ -172,10 +171,17 @@ const Pricing = ({ isMenuVisible, toggleMenu }) => {
               />
             ))}
           </div>
-          <p className={`${styles.paragraphText} ${styles.paragraphTextmb} `}>
-            For clients who need ongoing support after their initial project is
-            completed, I offer monthly maintenance and assistance.
-          </p>
+          <hr />
+          <div className={styles.supportBox}>
+            <h5 className={styles.headingQuinary}>
+              Ongoing Support After Your Plan Period
+            </h5>
+            <p className={`${styles.paragraphText} ${styles.paragraphTextmb} `}>
+              After your initial support period ends, I offer flexible ongoing
+              support packages to ensure your website continues to run smoothly
+              and remains up-to-date.
+            </p>
+          </div>
         </div>
 
         <PopupWindow />

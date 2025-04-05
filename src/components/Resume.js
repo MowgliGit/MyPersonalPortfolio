@@ -10,48 +10,56 @@ export default function Resume() {
   const educationItems = [
     {
       index: "00",
-      name: "Introduction to Web Development",
-      academy: "Creative Hub",
-      date: "12/2021 - 12/2021",
-      certificateUrl: "creative.png",
+      name: "Advanced CSS&Sass:Flexbox, Grid and Animations",
+      academy: "Udemy",
+      date: "01/2025 - 04/2025",
+      certificateUrl: "css&sass.jpg",
     },
     {
       index: "01",
-      name: "Responsive Web Design Course – HTML&CSS",
-      academy: "Udemy",
-      date: "01/2021 - 05/2022",
-      certificateUrl: "html&css.jpg",
+      name: "Full-Stack Programming with Js and React",
+      academy: "SMX Academy",
+      date: "04/2024 - 05/2024",
+      certificateUrl: "react.png",
     },
     {
       index: "02",
-      name: "Bootstrap 5 Course – From Scratch with Projects",
-      academy: "Udemy",
-      date: "05/2022 - 06/2022",
-      certificateUrl: "html&css.jpg",
-    },
-    {
-      index: "03",
-      name: "Self-Taught JavaScript Developer",
+      name: "The Complete JavaScript Course 2023",
       academy: "Udemy",
       date: "09/2022 - 03/2023",
       certificateUrl: "javascript.jpg",
     },
     {
+      index: "03",
+      name: "Bootstrap 5 Course–From Scratch",
+      academy: "Udemy",
+      date: "05/2022 - 06/2022",
+      certificateUrl: "bootstrap.jpg",
+    },
+    {
       index: "04",
-      name: "Front-End Programming with JS and React",
-      academy: "SMX Academy",
-      date: "04/2024 - 05/2024",
-      certificateUrl: "react.png",
+      name: "Build Responsive Websites - HTML&CSS!",
+      academy: "Udemy",
+      date: "01/2022 - 05/2022",
+      certificateUrl: "html&css.jpg",
+    },
+    {
+      index: "05",
+      name: "Introduction to Web Development",
+      academy: "Creative Hub",
+      date: "12/2021 - 12/2021",
+      certificateUrl: "creative.png",
     },
   ];
 
   const experienceItems = [
     {
       index: "00",
-      name: "HTML & CSS Developer",
+      name: "Jr. Full-Stack Developer with JavaScript and React",
       description:
-        "As an HTML & CSS Developer with expertise in Bootstrap, I create fully responsive, well-structured, and visually appealing web pages. My focus is on delivering clean layouts and seamless user experiences across all devices.",
+        "Built interactive, dynamic web pages using React, focusing on creating reusable components, managing state, and integrating APIs to enhance functionality. Developed web applications with API connections, ensuring seamless data fetching and a smooth user experience.",
     },
+
     {
       index: "01",
       name: "Jr. JavaScript Developer",
@@ -60,9 +68,9 @@ export default function Resume() {
     },
     {
       index: "02",
-      name: "Jr. Full-Stack Developer with JavaScript and React",
+      name: "HTML & CSS Developer",
       description:
-        "Built interactive, dynamic web pages using React, focusing on creating reusable components and managing state for a smooth user experience.",
+        "As an HTML & CSS Developer with expertise in Bootstrap, I create fully responsive, well-structured, and visually appealing web pages. My focus is on delivering clean layouts and seamless user experiences across all devices.",
     },
   ];
 
@@ -84,6 +92,7 @@ export default function Resume() {
                 onClick={() => handleCertificateClick(item.certificateUrl)}
               >
                 {item.academy}
+                <i>🔗</i>
               </span>
               <br />
               <span className={styles.date}>{item.date}</span>

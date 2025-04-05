@@ -98,14 +98,14 @@ const ProjectDetails = () => {
     },
     {
       id: 9,
-      title: "Landing Page",
-      category: "HTML&CSS",
+      title: "Book Web App",
+      category: "React",
       image: "book.png",
-      link: "https://landingsimplepagecss.netlify.app/",
+      link: "https://mowgligit.github.io/bookWebApp/",
       description:
-        "A simple, responsive landing page showcasing a collection of Harry Potter books. The page features a clean design with a grid layout displaying book covers, titles, and pricing information. The layout is mobile-friendly and adjusts seamlessly across different screen sizes. ",
-      githubRepo: "https://github.com/MowgliGit/landing-page",
-      skills: ["Html", "Css"],
+        "A responsive web application for exploring and discovering books using an external API. Users can search for books by title or keyword, and results are displayed in a clean grid layout with book covers, titles, and brief information. Clicking on a book opens a modal with the full description and additional details. The design is mobile-friendly and adapts smoothly across all screen sizes. ",
+      githubRepo: "https://github.com/MowgliGit/bookWebApp",
+      skills: ["Html", "Css", "React"],
     },
     {
       id: 10,

@@ -361,6 +361,19 @@
   hyphens: auto;
   text-align: center;
 }
+.supportBox {
+  padding: 3.2rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2.4rem;
+  transition: all 0.3s;
+  animation-name: moveInBottom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  backface-visibility: hidden;
+}
 
 /* Bellow 1344px */
 @media (max-width: 84em) {
@@ -573,7 +586,8 @@
     font-weight: 600;
   }
   .paragraphTextmb {
-    margin-bottom: -6.4rem;
+    margin-bottom: -3.2rem;
+    hyphens: auto;
   }
 }
 /* Bellow 400px */

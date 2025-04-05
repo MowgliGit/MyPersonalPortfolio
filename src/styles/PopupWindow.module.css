@@ -173,4 +173,52 @@ body.popupOpen {
     z-index: 99999999999999999 !important;
   }
 }
+
 /* Bellow 567px */
+@media (max-width: 35.43em) {
+  .supportSection {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+  }
+  .popupContainer {
+    position: fixed;
+    background: linear-gradient(
+      to right bottom,
+      rgba(220, 72, 124, 1),
+      rgba(214, 51, 108, 0.9)
+    );
+    padding: 2.4rem 1.8rem;
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 3rem;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+    z-index: 99999999999999999 !important;
+  }
+}
+/* Bellow 400px */
+@media (max-width: 25em) {
+  .supportSection {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+  }
+  .popupContainer {
+    position: fixed;
+    background: linear-gradient(
+      to right bottom,
+      rgba(220, 72, 124, 1),
+      rgba(214, 51, 108, 0.9)
+    );
+    padding: 2.4rem 1.2rem;
+    max-width: 330px;
+    max-height: 300px;
+    border-radius: 3rem;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+    z-index: 99999999999999999 !important;
+  }
+}

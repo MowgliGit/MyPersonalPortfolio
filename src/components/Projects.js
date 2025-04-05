@@ -65,10 +65,10 @@ const projectsData = [
   },
   {
     id: 9,
-    title: "Landing page",
-    category: "HTML&CSS",
+    title: "Book Web App",
+    category: "React",
     image: "book.png",
-    link: "https://landingsimplepagecss.netlify.app/",
+    link: "https://mowgligit.github.io/bookWebApp/",
   },
   {
     id: 10,
