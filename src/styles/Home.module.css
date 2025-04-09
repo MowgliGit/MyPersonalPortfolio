@@ -810,6 +810,9 @@
   .testimonialText {
     text-align: center;
   }
+  .testimonialContainer {
+    height: 25rem;
+  }
 }
 /* Bellow 500px */
 @media (max-width: 31.25em) {
@@ -850,6 +853,9 @@
   .servicesImgThree {
     top: -1rem;
     left: 13rem;
+  }
+  .testimonialContainer {
+    height: 30rem;
   }
 }
 

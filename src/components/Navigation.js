@@ -62,6 +62,15 @@ export default function Navigation() {
             ))}
           </ul>
           <div className={styles.navigationIconsBox}>
+            {/* <a
+              href="https://www.upwork.com/freelancers/~01741f500be36f1cbe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.footerLink}
+            >
+              <i className={`fa-brands fa-square-upwork ${styles.navIcon}`}></i>
+              Upwork
+            </a> */}
             <a
               href="https://github.com/MowgliGit/"
               target="_blank"

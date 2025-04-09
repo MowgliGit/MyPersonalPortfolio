@@ -4,10 +4,8 @@
   color: #f8f9fa;
   height: auto;
   padding: 0.8rem 0 0.8rem 0;
-  overflow: hidden;
   height: auto;
   position: relative !important;
-  z-index: -1;
 }
 .footerContainer {
   padding: 1.2rem 3.2rem;
@@ -16,10 +14,8 @@
   column-gap: 4.8rem;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
   margin-top: auto;
   position: relative;
-  z-index: -1;
 }
 .headingQuaternary {
   color: #f8f9fa;
@@ -89,7 +85,7 @@
 }
 .btnFooterLink {
   display: inline-block;
-  cursor: pointer;
+  cursor: pointer !important;
   transition: all 0.2s;
   color: #f8f9fa;
   display: flex;
@@ -116,12 +112,18 @@
   cursor: pointer;
 }
 .footerLink {
+  z-index: 9999 !important;
+  position: relative !important;
+  pointer-events: auto !important;
   font-size: 1.6rem;
   line-height: 1.6;
   font-weight: 500;
   hyphens: auto;
   color: #f8f9fa;
   text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 9999;
 }
 .navIcon {
   color: #ced4da;

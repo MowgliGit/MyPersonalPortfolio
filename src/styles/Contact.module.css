@@ -204,11 +204,11 @@
 /* Bellow 567px */
 @media (max-width: 35.43em) {
   .mainContactPage {
-    height: 100vh;
+    height: 100vh !important;
     overflow-y: hidden;
   }
   .sectionContact {
-    height: 70vh;
+    height: 73vh;
   }
   .containerContact {
     max-width: 100rem;
@@ -242,6 +242,9 @@
 }
 /* Bellow 380px */
 @media (max-width: 23.75em) {
+  .mainContactPage {
+    height: 100vh !important;
+  }
   .paragraphPrimaryContact {
     font-size: 2.4rem;
   }
