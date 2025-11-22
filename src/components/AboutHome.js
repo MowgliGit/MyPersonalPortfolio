@@ -22,23 +22,22 @@ export default function AboutMe({ isMenuVisible, toggleMenu }) {
               Hi, I'm <span>Marina</span>
             </h3>
             <p className={styles.paragraphText}>
-              I’m a front-end developer focused on building custom,
-              high-performance websites from scratch —no templates, no CMS
-              platforms. I help clients grow their online presence by building
-              fast, user-friendly, and visually engaging websites with clean,
-              responsive code tailored to their brand.
+              I’m a front-end developer specializing in custom, high-performance
+              websites—no templates, no CMS. I build fast, responsive, and
+              visually engaging user experiences with clean, modern code
+              tailored to each client’s brand.
             </p>
+
             <p className={styles.paragraphText}>
               Whether you need a landing page, portfolio, or a full business
-              website, I create solutions that are tailored to your brand and
-              built to last. Beyond launch, I offer continued support and
-              maintenance to ensure your site stays updated, secure, and running
-              smoothly.
+              website, I deliver solutions that are built to last. I also
+              provide ongoing support and maintenance to keep your site updated,
+              secure, and performing at its best.
             </p>
           </div>
           <div className={styles.aboutImgBox}>
             <img
-              src={`${process.env.PUBLIC_URL}/images/ChatGpt.png`}
+              src={`${process.env.PUBLIC_URL}/images/ChatGPT.png`}
               className={styles.aboutMeImg}
               alt="aboutMeImg"
             />

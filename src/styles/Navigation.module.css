@@ -48,7 +48,12 @@
 
 /*  Navigation styles */
 .nav {
-  background-color: rgba(3, 26, 49, 0.95);
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(1, 14, 28, 0.814),
+    rgba(3, 26, 49, 0.801)
+  );
+  /* background-color: rgba(3, 26, 49, 0.95); */
   position: absolute;
   top: 0;
   right: 0;
