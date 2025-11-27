@@ -13,7 +13,8 @@ export default function Contact() {
             <div>
               <h2 className={styles.headingSecondary}>Let's work together!</h2>
               <p className={styles.paragraphPrimaryContact}>
-                Please contact me through <strong>Upwork</strong>.
+                If you'd like to discuss your project, feel free to contact me
+                directly through <strong>Upwork</strong>.
               </p>
             </div>
           </div>

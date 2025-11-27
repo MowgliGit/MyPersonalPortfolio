@@ -19,7 +19,7 @@ export default function Resume() {
       index: "01",
       name: "Full-Stack Programming with Js and React",
       academy: "SMX Academy",
-      date: "04/2024 - 05/2024",
+      date: "04/2024 - 12/2024",
       certificateUrl: "react.png",
     },
     {
