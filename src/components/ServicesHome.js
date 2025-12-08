@@ -39,16 +39,17 @@ export default function ServicesHome({ isMenuVisible, toggleMenu }) {
             ${styles.servicesAboutBoxText} ${styles.aboutBoxText}`}
           >
             <p className={styles.paragraphText}>
-              As a front-end developer, I offer a range of services to bring
-              your digital projects to life. My expertise includes front-end
-              development, unique web design, SEO strategies and ongoing updates
-              to keep your website secure and up-to-date.
+              As a front-end developer, I deliver clean, custom-coded websites
+              with modern design, responsive layouts, and optimized performance.
+              My services include front-end development, unique web design,
+              on-page SEO, and ongoing updates to keep your site fast, secure,
+              and up to date.
             </p>
 
             <p className={styles.paragraphText}>
-              From creating visually stunning layouts to implementing organized
-              UI layers and responsive designs, I ensure every project is built
-              for seamless navigation and optimal performance across all
+              From visually engaging layouts to well-structured UI systems and
+              mobile-first design, every project is built for smooth navigation,
+              reliability, and a high-quality user experience across all
               devices.
             </p>
           </div>

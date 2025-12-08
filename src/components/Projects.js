@@ -54,14 +54,14 @@ const projectsData = [
     title: "Pouffe Stool",
     category: "JavaScript",
     image: "rattanchair.png",
-    link: "https://website-for-rattan-pouffe-stool.netlify.app/",
+    link: "https://mowgligit.github.io/website-for-rattan-pouffe-stool/",
   },
   {
     id: 8,
     title: "Soy Candles",
     category: "JavaScript",
     image: "soycandel.png",
-    link: "https://website-for-homemade-soy-candles.netlify.app/",
+    link: "https://mowgligit.github.io/website-for-homemade-soy-candles/",
   },
   {
     id: 9,

@@ -43,8 +43,8 @@ const HeadingPrimaryAnimation = () => {
           <h1 className={styles.animatedHeadings}>{displayText}</h1>
         </div>
         <p className={styles.paragraphPrimary}>
-          I build custom, modern, and responsive websites. no WordPress or
-          Shopify involved{" "}
+          I build custom, modern, fully responsive websites—hand-coded from
+          scratch. No WordPress, no templates.{" "}
         </p>
         <div className={styles.btnsPrimaryHero}>
           <ButtonPrimary text="View My Works" link="/projects" />

@@ -22,18 +22,17 @@ export default function AboutMe({ isMenuVisible, toggleMenu }) {
               Hi, I'm <span>Marina</span>
             </h3>
             <p className={styles.paragraphText}>
-              I’m a front-end developer focused on building custom,
-              high-performance websites from scratch —no templates, no CMS
-              platforms. I help clients grow their online presence by building
-              fast, user-friendly, and visually engaging websites with clean,
-              responsive code tailored to their brand.
+              ’m a front-end developer who builds custom, high-performance
+              websites from the ground up — fully hand-coded, no templates, and
+              no CMS dependencies. My focus is on transforming designs into
+              fast, responsive, visually polished websites that provide a
+              seamless user experience across all devices.
             </p>
             <p className={styles.paragraphText}>
-              Whether you need a landing page, portfolio, or a full business
-              website, I create solutions that are tailored to your brand and
-              built to last. Beyond launch, I offer continued support and
-              maintenance to ensure your site stays updated, secure, and running
-              smoothly.
+              From landing pages to complete business websites, I deliver clean,
+              scalable code that aligns with your brand and supports future
+              growth. I also offer ongoing maintenance and support to ensure
+              your site stays secure, optimized, and performing at its best.
             </p>
           </div>
           <div className={styles.aboutImgBox}>
