@@ -37,7 +37,7 @@ export default function AboutMe({ isMenuVisible, toggleMenu }) {
           </div>
           <div className={styles.aboutImgBox}>
             <img
-              src={`${process.env.PUBLIC_URL}/images/ChatGpt.png`}
+              src={`${process.env.PUBLIC_URL}/images/ChatGPT.png`}
               className={styles.aboutMeImg}
               alt="aboutMeImg"
             />
