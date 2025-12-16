@@ -10,7 +10,7 @@ const ProjectDetails = () => {
       title: "Aswagandha",
       category: "JavaScript",
       image: "Ashwagandha.png",
-      link: "https://biobluehealth.com/",
+      link: "https://affiliateproductlandingpage.netlify.app/",
       description:
         "Built a fully responsive marketing website for a natural Ashwagandha supplement using HTML, CSS, and JavaScript. Includes pricing cards, “Why Us” section, testimonials, FAQ, and a clear “How It Works” flow — all optimized for fast performance and conversions.",
       githubRepo: "https://github.com/MowgliGit/-Website-for-Ashwagandha-s",
@@ -21,7 +21,7 @@ const ProjectDetails = () => {
       title: "Methylene Blue",
       category: "JavaScript",
       image: "MethyleneBlue.png",
-      link: "https://methyleneblue.site/",
+      link: "https://hightconvertingaffiliatelandingpage.netlify.app/",
       description:
         "Developed a clean, responsive landing page for a Methylene Blue supplement using HTML, CSS, and JavaScript. Features pricing cards, “Why Us” section, testimonials, FAQ, and a clear “How It Works” layout — focused on credibility, performance, and user-friendly design.",
       githubRepo: "https://github.com/MowgliGit/Methylene-Blue-CartPanda",
@@ -32,7 +32,7 @@ const ProjectDetails = () => {
       title: "ThankYou Page",
       category: "JavaScript",
       image: "ThankYouPage.png",
-      link: "https://thankyoupageclickbank.netlify.app/",
+      link: "https://thankyouwebsiteforaffiliatelandingpag.netlify.app/",
       description:
         "Created a professional order confirmation page for supplement purchases using HTML, CSS, and JavaScript. Displays clear confirmation details, customer support info, and disclaimers — fully responsive and styled to match the main brand’s design for a smooth post-purchase experience.",
       githubRepo: "https://github.com/MowgliGit/ThankYouPage",

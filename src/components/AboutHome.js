@@ -22,17 +22,17 @@ export default function AboutMe({ isMenuVisible, toggleMenu }) {
               Hi, I'm <span>Marina</span>
             </h3>
             <p className={styles.paragraphText}>
-              ’m a front-end developer who builds custom, high-performance
-              websites from the ground up — fully hand-coded, no templates, and
-              no CMS dependencies. My focus is on transforming designs into
-              fast, responsive, visually polished websites that provide a
-              seamless user experience across all devices.
+              I’m a front-end developer building custom, high-performance
+              websites from the ground up — fully hand-coded, with no templates
+              and no CMS. I turn approved designs into pixel-accurate, fast, and
+              responsive front-end builds using HTML, CSS, JavaScript, and
+              React.
             </p>
             <p className={styles.paragraphText}>
-              From landing pages to complete business websites, I deliver clean,
-              scalable code that aligns with your brand and supports future
-              growth. I also offer ongoing maintenance and support to ensure
-              your site stays secure, optimized, and performing at its best.
+              My work focuses on clean, scalable code that performs reliably
+              across all devices. I work with agencies and clients who need
+              production-ready front ends and provide ongoing support to keep
+              websites optimized, stable, and easy to maintain as they grow.
             </p>
           </div>
           <div className={styles.aboutImgBox}>
@@ -41,10 +41,16 @@ export default function AboutMe({ isMenuVisible, toggleMenu }) {
               className={styles.aboutMeImg}
               alt="aboutMeImg"
             />
-            {/* <p className={styles.textNumber}>
-              Years of <span>Experience</span>
-            </p> */}
           </div>
+        </div>
+        <div className={styles.aboutBoxText}>
+          <p className={styles.paragraphText}>
+            I also handle full implementation — front-end development,
+            performance optimization, basic technical SEO, and hosting setup —
+            ensuring each website launches fast and functions flawlessly. With
+            40+ custom-coded projects, I help teams turn design systems into
+            stable, scalable, production-ready interfaces.
+          </p>
         </div>
         <div className={styles.buttonWrapper}>
           <ButtonSecondary text="Learn More About Me" link="/about" />
