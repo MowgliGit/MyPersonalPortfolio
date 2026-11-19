@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPersonalPortfolio/static/css/main.695fc5bd.css",
-    "main.js": "/MyPersonalPortfolio/static/js/main.3e66be4d.js",
+    "main.js": "/MyPersonalPortfolio/static/js/main.4b2b6b45.js",
     "static/js/139.e8f96c06.chunk.js": "/MyPersonalPortfolio/static/js/139.e8f96c06.chunk.js",
     "static/js/524.2bec2a84.chunk.js": "/MyPersonalPortfolio/static/js/524.2bec2a84.chunk.js",
     "static/js/628.b9094c27.chunk.js": "/MyPersonalPortfolio/static/js/628.b9094c27.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/prices.webp": "/MyPersonalPortfolio/static/media/prices.c0fdf354d5715f0c6d83.webp",
     "index.html": "/MyPersonalPortfolio/index.html",
     "main.695fc5bd.css.map": "/MyPersonalPortfolio/static/css/main.695fc5bd.css.map",
-    "main.3e66be4d.js.map": "/MyPersonalPortfolio/static/js/main.3e66be4d.js.map",
+    "main.4b2b6b45.js.map": "/MyPersonalPortfolio/static/js/main.4b2b6b45.js.map",
     "139.e8f96c06.chunk.js.map": "/MyPersonalPortfolio/static/js/139.e8f96c06.chunk.js.map",
     "524.2bec2a84.chunk.js.map": "/MyPersonalPortfolio/static/js/524.2bec2a84.chunk.js.map",
     "628.b9094c27.chunk.js.map": "/MyPersonalPortfolio/static/js/628.b9094c27.chunk.js.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.695fc5bd.css",
-    "static/js/main.3e66be4d.js"
+    "static/js/main.4b2b6b45.js"
   ]
 }
